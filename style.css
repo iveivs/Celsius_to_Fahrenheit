@@ -4,7 +4,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 16px #A9A9A9;
 }
 
 .celsiy {
