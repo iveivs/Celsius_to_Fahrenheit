@@ -97,6 +97,7 @@ input::-moz-placeholder { color: LightCoral; }
         flex-direction: column;
         text-align: center;
         width: 320px;
+        margin-top: 100px;
     }
     .celsiy {
         margin-right: 0;
