@@ -8,9 +8,6 @@ const clearBtn = document.getElementById('clear')
 createBtn.onclick = function () {
     let toFaringeit = (9 / 5) * Number(inputNum.value) + 32 
     console.log(toFaringeit);
-    if(toFaringeit !== Number) {
-        alert('Введите корректные данные')
-    }
     toFaringeit += ' °F'
     output.innerHTML = toFaringeit
 }
