@@ -12,7 +12,6 @@ createBtn.onclick = function () {
     output.innerHTML = toFaringeit
 }
 
-
 clearBtn.onclick = function (e) {
     inputNum.value = ''
     output.innerHTML = ''
