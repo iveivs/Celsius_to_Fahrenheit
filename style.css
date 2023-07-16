@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     height: 400px;
-    width: 800px;
+    width: 760px;
     margin: 0 auto;
     margin-top: 200px;
     border-radius: 20px;
@@ -91,3 +91,19 @@ textarea {
 }
 input::-webkit-input-placeholder { color: LightCoral; }
 input::-moz-placeholder { color: LightCoral; }
+
+@media(max-width: 768px) {
+    .conteiner {
+        flex-direction: column;
+        text-align: center;
+        width: 320px;
+    }
+    .celsiy {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .button-box {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+}
