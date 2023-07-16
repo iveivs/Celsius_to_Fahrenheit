@@ -11,6 +11,8 @@ createBtn.onclick = function () {
         console.log(toFaringeit);
         toFaringeit += ' °F'
         output.innerHTML = toFaringeit
+        inputNum.value += ' °C'
+        inputNum.innerHTML = inputNum.value
     } else {
         alert('Введите данные')
     }
