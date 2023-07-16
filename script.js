@@ -8,7 +8,7 @@ inputNum.value = ''
 createBtn.onclick = function () {
     if(inputNum.value !== '') {
         let toFaringeit = (9 / 5) * Number(inputNum.value) + 32 
-        console.log(toFaringeit);
+        toFaringeit = toFaringeit.toFixed(1)
         toFaringeit += ' °F'
         output.innerHTML = toFaringeit
         inputNum.value += ' °C'
