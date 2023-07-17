@@ -34,7 +34,7 @@ input {
     outline: brown;
 }
 .input-arrea:hover {
-    /* scale: 1.02; */
+
     box-shadow: 4px 2px 2px FireBrick;
 }
 .input-btn {
@@ -79,7 +79,7 @@ input {
     text-align: center;
 }
 textarea {
-    width: 80px;
+    width: 100px;
     height: 20px;
     padding-left: 10px;
     border-radius: 12px;
@@ -91,6 +91,10 @@ textarea {
 }
 input::-webkit-input-placeholder { color: LightCoral; }
 input::-moz-placeholder { color: LightCoral; }
+
+.link-try {
+    font-size: 10px;
+}
 
 @media(max-width: 768px) {
     .conteiner {
@@ -106,5 +110,12 @@ input::-moz-placeholder { color: LightCoral; }
     .button-box {
         margin-bottom: 30px;
         margin-right: 0;
+    }
+    .input-arrea {
+        text-align: center;
+        padding: 4px;
+    }
+    .textarea {
+        text-align: center;
     }
 }

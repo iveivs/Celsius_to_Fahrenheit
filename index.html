@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>C to F</title>
-    <link rel="stylesheet" href="style.css">
+    
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 <body>
@@ -15,7 +16,7 @@
             
             <div class="celsiy">
                 <label for="inputNum">Температура в Цельсиях</label>
-                <input class="input-arrea" type="text" id="inputNum" placeholder="Введите данные" required >
+                <input class="input-arrea" type="text" id="inputNum" placeholder="Введите данные" required pattern="[0-9]+">
             </div>
             <div class="button-box">
                 <button class="input-btn" id="btn" >Перевести</button>
@@ -24,10 +25,11 @@
             <div class="farengeit">
                 <div class="ansver">Температура в Фаренгейтах</div>
                 <form action=""></form>
-                <textarea name="" id="output" cols="30" rows="10"></textarea>
+                <textarea name="" id="output" class="text-output"></textarea>
             </div>
         </div>
         
     </main>
+    <a class="link-try" href="try.html">to try</a>
 </body>
 </html>
